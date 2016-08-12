@@ -32,6 +32,8 @@
     NSLog(@"screen width - %f", screenRect.size.width); // 宽度
     NSLog(@"screen height - %f", screenRect.size.height);   // 高度
     
+    //注释
+    
 }
 
 - (void)didReceiveMemoryWarning {

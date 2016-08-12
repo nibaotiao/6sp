@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "85848B18C10AEEE467B4BB8A9CFF1B13AC1FAF62",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "37a2da98-7de3-43fa-b8ef-8b8e3683dcb2++3964" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "85848B18C10AEEE467B4BB8A9CFF1B13AC1FAF62" : 0,
+    "37a2da98-7de3-43fa-b8ef-8b8e3683dcb2++3964" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "82FB4633-02C6-4E04-908A-140320CAC8ED",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "85848B18C10AEEE467B4BB8A9CFF1B13AC1FAF62" : "6sp\/",
+    "37a2da98-7de3-43fa-b8ef-8b8e3683dcb2++3964" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "6sp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "6sp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/testsv2.mhealth365.com\/svn\/ecg",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "37a2da98-7de3-43fa-b8ef-8b8e3683dcb2++3964"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nibaotiao\/6sp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "85848B18C10AEEE467B4BB8A9CFF1B13AC1FAF62"
+    }
+  ]
+}

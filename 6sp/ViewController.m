@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIAlertController+LeftAlign.h"
 
 @interface ViewController ()
 
@@ -32,9 +33,17 @@
     NSLog(@"screen width - %f", screenRect.size.width); // 宽度
     NSLog(@"screen height - %f", screenRect.size.height);   // 高度
     
-    //注释
+    NSString *msg = @"1：你好 \n2：我好爱你 \n3：我爱大家新版本\n4：我是苹果";
+    UIAlertController * controller = [UIAlertController alertControllerWithTitle:@"发现新版本" message:msg preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction * action = [UIAlertAction actionWithTitle:@"现在升级" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    [controller addAction:action];
+    [controller setAlign:NSTextAlignmentLeft];
+    [self presentViewController:controller animated:YES completion:nil];
     
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

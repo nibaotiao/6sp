@@ -13,6 +13,7 @@
 		D30AA83B1D2F2F7C00949817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30AA8391D2F2F7C00949817 /* Main.storyboard */; };
 		D30AA83D1D2F2F7C00949817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30AA83C1D2F2F7C00949817 /* Assets.xcassets */; };
 		D30AA8401D2F2F7C00949817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30AA83E1D2F2F7C00949817 /* LaunchScreen.storyboard */; };
+		D3C9D0951D767EE20024D8FA /* UIAlertController+LeftAlign.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C9D0941D767EE20024D8FA /* UIAlertController+LeftAlign.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D30AA83C1D2F2F7C00949817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D30AA83F1D2F2F7C00949817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D30AA8411D2F2F7C00949817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C9D0931D767EE20024D8FA /* UIAlertController+LeftAlign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+LeftAlign.h"; sourceTree = "<group>"; };
+		D3C9D0941D767EE20024D8FA /* UIAlertController+LeftAlign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+LeftAlign.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		D30AA82F1D2F2F7C00949817 /* 6sp */ = {
 			isa = PBXGroup;
 			children = (
+				D3C9D0931D767EE20024D8FA /* UIAlertController+LeftAlign.h */,
+				D3C9D0941D767EE20024D8FA /* UIAlertController+LeftAlign.m */,
 				D30AA8331D2F2F7C00949817 /* AppDelegate.h */,
 				D30AA8341D2F2F7C00949817 /* AppDelegate.m */,
 				D30AA8361D2F2F7C00949817 /* ViewController.h */,
@@ -152,6 +157,7 @@
 				D30AA8381D2F2F7C00949817 /* ViewController.m in Sources */,
 				D30AA8351D2F2F7C00949817 /* AppDelegate.m in Sources */,
 				D30AA8321D2F2F7C00949817 /* main.m in Sources */,
+				D3C9D0951D767EE20024D8FA /* UIAlertController+LeftAlign.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +306,7 @@
 				D30AA8461D2F2F7C00949817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
